@@ -2,7 +2,7 @@ root: true
 env:
   serviceworker: true
   browser: true
-  es2020: true
+  es2021: true
   node: true
   jest: true
 parserOptions:
@@ -31,6 +31,11 @@ rules:
   linebreak-style:
     - error
     - unix
+  no-empty-function:
+    - error
+    - allow:
+        #! this allows for empty service/boilerplate code
+        - methods
   no-plusplus: 0
   no-return-assign: 0
   no-param-reassign: 0
