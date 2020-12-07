@@ -2,10 +2,7 @@
   "compilerOptions": {
     "allowJs": true,
     "strict": true,
-    // EZ Mode
-    // "noImplicitAny": true,
 
-    // ? Modules
     "jsx": "react",
     "noEmit": true,
     "esModuleInterop": true,
@@ -15,10 +12,8 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "typeRoots": ["node_modules/@types", "src/types"],
 
-    // ? allows 'src/' alias in module imports
     "baseUrl": ".",
 
-    // ? Default React TS options
     "skipLibCheck": true,
     "isolatedModules": true,
     "resolveJsonModule": true,
